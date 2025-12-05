@@ -1,0 +1,37 @@
+GET
+https://cdnjs.cloudflare.com/ajax/libs/pdf.js/5.4.449/pdf.worker.min.mjs
+CORS Failed
+
+Loading module from “https://cdnjs.cloudflare.com/ajax/libs/pdf.js/5.4.449/pdf.worker.min.mjs” was blocked because of a disallowed MIME type (“text/html”).
+editor
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cdnjs.cloudflare.com/ajax/libs/pdf.js/5.4.449/pdf.worker.min.mjs. (Reason: CORS request did not succeed). Status code: (null).
+
+Warning: Setting up fake worker. util.js:392:13
+TypeError: error loading dynamically imported module: https://cdnjs.cloudflare.com/ajax/libs/pdf.js/5.4.449/pdf.worker.min.mjs
+GET
+https://cdnjs.cloudflare.com/ajax/libs/pdf.js/5.4.449/pdf.worker.min.mjs?import
+CORS Failed
+
+Loading module from “https://cdnjs.cloudflare.com/ajax/libs/pdf.js/5.4.449/pdf.worker.min.mjs?import” was blocked because of a disallowed MIME type (“text/html”).
+editor
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cdnjs.cloudflare.com/ajax/libs/pdf.js/5.4.449/pdf.worker.min.mjs?import. (Reason: CORS request did not succeed). Status code: (null).
+
+Module source URI is not allowed in this document: “https://cdnjs.cloudflare.com/ajax/libs/pdf.js/5.4.449/pdf.worker.min.mjs?import”. pdfjs-dist.js
+Error loading PDF: Error: Setting up fake worker failed: "error loading dynamically imported module: https://cdnjs.cloudflare.com/ajax/libs/pdf.js/5.4.449/pdf.worker.min.mjs?import".
+    setupFakeWorker_fn api.js:2296
+    promise callback*setupFakeWorker_fn api.js:2294
+    terminateEarly api.js:2205
+    initialize_fn api.js:2216
+    initialize_fn api.js:2210
+pdfUtils.ts:50:17
+PDF Loading error: Error: Setting up fake worker failed: "error loading dynamically imported module: https://cdnjs.cloudflare.com/ajax/libs/pdf.js/5.4.449/pdf.worker.min.mjs?import".
+    setupFakeWorker_fn api.js:2296
+    promise callback*setupFakeWorker_fn api.js:2294
+    terminateEarly api.js:2205
+    initialize_fn api.js:2216
+    initialize_fn api.js:2210
+editor.tsx:49:19
+Error: Promised response from onMessage listener went out of scope 2 build.js:2:92650
+
+​
+

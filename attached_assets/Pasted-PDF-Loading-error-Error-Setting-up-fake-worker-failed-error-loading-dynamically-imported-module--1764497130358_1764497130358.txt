@@ -1,0 +1,56 @@
+PDF Loading error: Error: Setting up fake worker failed: "error loading dynamically imported module: https://cdnjs.cloudflare.com/ajax/libs/pdf.js/5.4.449/pdf.worker.min.js".
+    setupFakeWorker_fn https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/pdfjs-dist.js?v=50e77c4d:14909
+    promise callback*setupFakeWorker_fn https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/pdfjs-dist.js?v=50e77c4d:14908
+    initialize_fn https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/pdfjs-dist.js?v=50e77c4d:14825
+    _PDFWorker https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/pdfjs-dist.js?v=50e77c4d:14750
+    create https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/pdfjs-dist.js?v=50e77c4d:14779
+    getDocument https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/pdfjs-dist.js?v=50e77c4d:13982
+    onload https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/src/lib/pdfUtils.ts?t=1764496987923:12
+    loadPdfAsImages https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/src/lib/pdfUtils.ts?t=1764496987923:9
+    loadPdfAsImages https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/src/lib/pdfUtils.ts?t=1764496987923:7
+    loadFile https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/src/pages/editor.tsx?t=1764496987923:40
+    Editor https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/src/pages/editor.tsx?t=1764496987923:78
+    react_stack_bottom_frame https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:18567
+    runWithFiberInDEV https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:999
+    commitHookEffectListMount https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:9411
+    commitHookPassiveMountEffects https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:9465
+    commitPassiveMountOnFiber https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11040
+    recursivelyTraversePassiveMountEffects https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11010
+    commitPassiveMountOnFiber https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11201
+    recursivelyTraversePassiveMountEffects https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11010
+    commitPassiveMountOnFiber https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11033
+    recursivelyTraversePassiveMountEffects https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11010
+    commitPassiveMountOnFiber https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11033
+    recursivelyTraversePassiveMountEffects https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11010
+    commitPassiveMountOnFiber https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11033
+    recursivelyTraversePassiveMountEffects https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11010
+    commitPassiveMountOnFiber https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11201
+    recursivelyTraversePassiveMountEffects https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11010
+    commitPassiveMountOnFiber https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11033
+    recursivelyTraversePassiveMountEffects https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11010
+    commitPassiveMountOnFiber https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11033
+    recursivelyTraversePassiveMountEffects https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11010
+    commitPassiveMountOnFiber https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11201
+    recursivelyTraversePassiveMountEffects https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11010
+    commitPassiveMountOnFiber https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11033
+    recursivelyTraversePassiveMountEffects https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11010
+    commitPassiveMountOnFiber https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11033
+    recursivelyTraversePassiveMountEffects https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11010
+    commitPassiveMountOnFiber https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11066
+    flushPassiveEffects https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:13150
+    flushPendingEffects https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:13088
+    flushSpawnedWork https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:13062
+    commitRoot https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:12804
+    commitRootWhenReady https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:12016
+    performWorkOnRoot https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:11950
+    performSyncWorkOnRoot https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:13517
+    flushSyncWorkAcrossRoots_impl https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:13414
+    flushSyncWork$1 https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:12076
+    batchedUpdates$1 https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:2630
+    dispatchEventForPluginEventSystem https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:13763
+    dispatchEvent https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:16784
+    dispatchDiscreteEvent https://b93beea4-9e75-48be-b4e7-63f311a4aad4-00-1j4q3zemgepmb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/react-dom_client.js?v=50e77c4d:16765
+editor.tsx:48:19
+
+​
+
